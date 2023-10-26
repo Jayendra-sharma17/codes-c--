@@ -1,20 +1,21 @@
 #include<iostream>
 using namespace std;
-int getle(char ch[])
+int getlen(char ch[])
 {
-    int count=0;
-    for (int i = 0; ch[i] !='\0'; i++)
+    int count=1;
+    for (int i = 1; ch[i]!='\0'; i++)
     {
-     count++;
+        count++;
     }
-    return count;
     
+    return count;
 }
 int main()
 {
     char str[20];
-    cout<<"enter "<<endl;
+    cout<<"enter string";
     cin>>str;
-    cout<<"len is"<<getle(str);
+    int x=getlen(str);
+    cout<<x;
     return 0;
 }

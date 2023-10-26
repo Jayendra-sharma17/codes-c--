@@ -13,7 +13,7 @@ int main()
        for (col  = 1; col <=row; col++)
        {
        char ch='A'+row+col-2;
-       int row=ch;
+       
 
       cout<<ch<<" ";
       ch++;

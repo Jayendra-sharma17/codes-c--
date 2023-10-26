@@ -5,21 +5,18 @@ int main()
     int n,i,j;
     cout<<"enter n";
     cin>>n;
-    i=1;
-    while (i<=n)                
-    {
-        /* code */
-        j=1;
-        while (j<=n)
-        {
-        cout<<j;
-
-        j++;
-        }
-        cout<<endl;
-        i++;
+   
+for ( i = 1; i <n; i++)
+{
+  for (j  = 1; j <n; j++)
+  {
+   cout<<j;
+  }
+  cout<<endl;
+  
+}
 
         
-    }
+    
     return 0;
 }

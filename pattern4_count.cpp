@@ -2,25 +2,22 @@
 using namespace std;
 int main()
 {
-    int i,n,j,count;
+    int i,n,j;
     cout<<"enter n";
     cin>>n;
-    i=1;
-    count=1;
-    while (i<=n)
+    int count =1;
+    for (i  = 0; i <n; i++)
     {
-        /* code */
-        j=1;
-        while (j<=n)
-        {
-            cout<<count<<" ";
-            count++;
-            j++;
-        }
-        cout<<endl;
-        i++;
-        
+       for (j  = 0; j <n; j++)
+       {
+       cout<<count;
+       count++;
+       }
+       cout<<endl;
+       
     }
+    
+  
     
     return 0;
 }

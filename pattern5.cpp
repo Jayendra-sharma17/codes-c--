@@ -2,23 +2,20 @@
 using namespace std;
 int main()
 {
-    int n,row,col;
+    int n,i,j;
     cout<<"enter n";
     cin>>n;
-    row=1;
-    while (row<=n)
+   
+
+     for (i  = 0; i <n; i++)
     {
-        col=1;
-        while (col<=n)
-        {
-          cout<<"*"<<" " ;
-          col++;
-
-        }
-        cout<<endl;
-        row++;
-        
-
+       for (j  = 0; j <n; j++)
+       {
+       cout<<"*";
+      
+       }
+       cout<<endl;
+       
     }
     
     return 0;

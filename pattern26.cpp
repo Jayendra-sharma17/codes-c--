@@ -6,9 +6,9 @@ int main()
     cout<<"enter the n";
     cin>>n;
     int row=1;
-    for (int row = 1; row <= n; row++)
+    for (int row = n; row >= 0; row--)
     {
-       for (int col = 1; col < n-row+1; col++)
+       for (int col=row; col >=0; col--)
        {
     cout<<"*"<<" ";
     

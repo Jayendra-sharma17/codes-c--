@@ -11,7 +11,7 @@ int main()
         {
         cout<<count<<" ";
         count++;
-        }4
+        }
         
         cout<<endl;
         
